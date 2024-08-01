@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """
-starts a Flask web applicationstart Flask application"""
+A script that starts a Flask web application
+
+must be listening on 0.0.0.0, port 5000
+"""
 
 from flask import Flask, render_template
 from models import *
